@@ -1,29 +1,25 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
 /node_modules
 /.pnp
 .pnp.js
+package-lock.json
+.env
+venv
+build
 
-# testing
 /coverage
-
-# production
-/build
-/dist
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.settings
+.classpath
+.project
+.cache
 
-# Environment Variables
-.env
-.env.build
-.vercel
+# idea conf files
+.idea
+*.ipr
+*.iws
+*.iml
+
+# misc
+.DS_Store
